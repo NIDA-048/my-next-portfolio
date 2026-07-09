@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Next.js Developer Portfolio
 
-## Getting Started
+## Project Description
+This is a responsive developer portfolio built using Next.js, TypeScript, and Tailwind CSS. It contains a Navbar, Hero, About, Skills, Projects, Contact Form, and Footer.
 
-First, run the development server:
+## Tech Stack
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React
+
+## How to Run the Project
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What I Learned
+- Basics of Next.js App Router
+- Components in Next.js
+- Routing using the app folder
+- Tailwind CSS utility classes
+- Responsive layouts using Flexbox and Grid
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Difference Between Flex and Grid
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Flex**
+- Best for one-dimensional layouts.
+- Used for Navbar and Hero section.
 
-## Learn More
+**Grid**
+- Best for two-dimensional layouts.
+- Used for the Projects section.
 
-To learn more about Next.js, take a look at the following resources:
+## Which Layout Was Difficult and Why
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Hero section was slightly difficult because it needed to display in two columns on desktop and stack correctly on mobile devices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Problems Faced and Solutions
 
-## Deploy on Vercel
+- Faced PowerShell execution policy issues, solved by using Command Prompt.
+- Learned how to create reusable components and organize files properly.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Desktop Screenshot
+- Mobile Screenshot
