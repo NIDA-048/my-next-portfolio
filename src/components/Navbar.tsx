@@ -4,6 +4,7 @@ export default function Navbar() {
       <h1 className="text-2xl font-bold">Nida</h1>
 
       <ul className="flex gap-6">
+        <a href="/projects">Projects</a>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
