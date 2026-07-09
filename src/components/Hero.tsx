@@ -6,19 +6,23 @@ export default function Hero() {
           Hi, I'm Nida 👋
         </h2>
 
+        <h3 className="text-xl text-blue-600 font-semibold mb-4">
+          Full Stack Developer Intern
+        </h3>
+
         <p className="text-gray-600 mb-6">
-          I am a Full Stack Developer Intern passionate about building modern,
-          responsive, and user-friendly web applications using Next.js and
-          Tailwind CSS.
+          I build modern, responsive, and user-friendly web applications using
+          Next.js, TypeScript, and Tailwind CSS. I enjoy learning new
+          technologies and improving my development skills.
         </p>
 
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:scale-105 transition duration-300">
           View Projects
         </button>
       </div>
 
       <div className="md:w-1/2 flex justify-center">
-        <div className="w-64 h-64 rounded-full bg-gray-300 flex items-center justify-center text-5xl">
+        <div className="w-64 h-64 rounded-full bg-gray-300 shadow-lg flex items-center justify-center text-5xl">
           👩‍💻
         </div>
       </div>
