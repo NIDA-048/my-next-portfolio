@@ -3,6 +3,11 @@
 ## Project Description
 This is a responsive developer portfolio built using Next.js, TypeScript, and Tailwind CSS. It contains a Navbar, Hero, About, Skills, Projects, Contact Form, and Footer.
 
+## Features
+- Responsive design for desktop and mobile
+- Reusable React components
+- Modern UI using Tailwind CSS
+
 ## Tech Stack
 - Next.js
 - TypeScript
